@@ -1,0 +1,3 @@
+= ocp-smtp-relay
+
+Postfix based mail-relay packaged in a linux container
