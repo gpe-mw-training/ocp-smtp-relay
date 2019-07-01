@@ -12,5 +12,5 @@ postmap /etc/postfix/sasl_passwd
 #echo -en "\npostfix output = \n"
 #cat nohup.out
 
-nohup /usr/sbin/postfix start >/tmp/postfix.log 2>&1
+nohup /usr/sbin/postfix start >> /tmp/postfix.log 2>&1
 tail -f /tmp/postfix.log

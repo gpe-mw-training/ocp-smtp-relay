@@ -1,7 +1,7 @@
 smtpd_banner = $myhostname ESMTP
 inet_interfaces = all
 inet_protocols = ipv4
-
+maillog_file = /dev/stdout
 smtp_sasl_auth_enable = yes
 smtp_sasl_password_maps = hash:/etc/postfix/sasl_passwd
 smtp_sasl_security_options = noanonymous
